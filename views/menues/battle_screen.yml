@@ -1,0 +1,109 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA █"
+  - "█━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━█"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█#############################┃                                                                                        █"
+  - "█                             ┃                                                                                        █"
+  - "█━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█%%%%%%%%%%%%%%%%%%%%%%%%%%%%%┃                                                                                        █"
+  - "█━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━█"
+  - "█ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA █"
+  - "█━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━█"
+  - "█ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA █"
+  - "█ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA █"
+  - "█ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA █"
+  - "█ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+arts:
+  -
+    y:
+      - 3
+      - 26
+    x:
+      - 31
+      - 118
+partials:
+  -
+    partial_name: _character_stats_mini
+    y:
+      - 3
+      - 13
+    x:
+      - 1
+      - 29
+  -
+    partial_name: _character_stats_mini
+    y:
+      - 16
+      - 26
+    x:
+      - 1
+      - 29
+insert_options:
+  1:
+    A:
+      methods:
+        - main
+      modifier: m
+  28:
+    A:
+      methods:
+        - actions
+      modifier: m
+  30:
+    A:
+      methods:
+        - log_last4
+      modifier: s
+  31:
+    A:
+      methods:
+        - log_last3
+      modifier: s
+  32:
+    A:
+      methods:
+        - log_last2
+      modifier: s
+  33:
+    A:
+      methods:
+        - log_last1
+      modifier: s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

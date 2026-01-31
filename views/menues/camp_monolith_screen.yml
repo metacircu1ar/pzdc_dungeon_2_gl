@@ -1,0 +1,158 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                          PZDC MONOLITH has AAAAA points                                              █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█      STAT                   HAS NOW      PRICE         BUY                                                           █"
+  - "█     ───────────────────────────────────────────────────────────                                                      █"
+  - "█      +1 HP                   AAAAA       BBBBB      [Enter  1]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 MP                   AAAAA       BBBBB      [Enter  2]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Accuracy             AAAAA       BBBBB      [Enter  3]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Damage               AAAAA       BBBBB      [Enter  4]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Stat point           AAAAA       BBBBB      [Enter  5]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Skill point          AAAAA       BBBBB      [Enter  6]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Armor                AAAAA       BBBBB      [Enter  7]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Regen-HP             AAAAA       BBBBB      [Enter  8]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Regen-MP             AAAAA       BBBBB      [Enter  9]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Armor penetration    AAAAA       BBBBB      [Enter 10]                                                       █"
+  - "█     -----------------------------------------------------------                                                      █"
+  - "█      +1 Block chance         AAAAA       BBBBB      [Enter 11]                                                       █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                   BACK   [Enter 0]                                                   █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+arts:
+  -
+    y:
+      - 3
+      - 29
+    x:
+      - 66
+      - 117
+insert_options:
+  1:
+    A:
+      methods:
+        - points
+      modifier: m
+  6:
+    A:
+      methods:
+        - hp
+      modifier: s
+    B:
+      methods:
+        - hp__p
+      modifier: s
+  8:
+    A:
+      methods:
+        - mp
+      modifier: s
+    B:
+      methods:
+        - mp__p
+      modifier: s
+  10:
+    A:
+      methods:
+        - accuracy
+      modifier: s
+    B:
+      methods:
+        - accuracy__p
+      modifier: s
+  12:
+    A:
+      methods:
+        - damage
+      modifier: s
+    B:
+      methods:
+        - damage__p
+      modifier: s
+  14:
+    A:
+      methods:
+        - stat_points
+      modifier: s
+    B:
+      methods:
+        - stat_points__p
+      modifier: s
+  16:
+    A:
+      methods:
+        - skill_points
+      modifier: s
+    B:
+      methods:
+        - skill_points__p
+      modifier: s
+  18:
+    A:
+      methods:
+        - armor
+      modifier: s
+    B:
+      methods:
+        - armor__p
+      modifier: s
+  20:
+    A:
+      methods:
+        - regen_hp
+      modifier: s
+    B:
+      methods:
+        - regen_hp__p
+      modifier: s
+  22:
+    A:
+      methods:
+        - regen_mp
+      modifier: s
+    B:
+      methods:
+        - regen_mp__p
+      modifier: s
+  24:
+    A:
+      methods:
+        - armor_penetration
+      modifier: s
+    B:
+      methods:
+        - armor_penetration__p
+      modifier: s
+  26:
+    A:
+      methods:
+        - block_chance
+      modifier: s
+    B:
+      methods:
+        - block_chance__p
+      modifier: s
+
+
+
+
+
+
+
+
+#

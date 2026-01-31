@@ -1,0 +1,56 @@
+without:
+  name: "---"
+  armor: 0
+  accuracy: 0
+  price: 0
+
+leather_helmet:
+  name: "Leather helmet"
+  armor: 1
+  accuracy: 0
+  price: 10
+
+rusty_quilted_helmet:
+  name: "Rusty quilted helmet"
+  armor: 1
+  accuracy: -3
+  price: 5
+
+quilted_helmet:
+  name: "Quilted helmet"
+  armor: 2
+  accuracy: -3
+  price: 50
+
+rusty_mail_helmet:
+  name: "Rusty mail helmet"
+  armor: 2
+  accuracy: -5
+  price: 40
+
+sallet:
+  name: Sallet
+  armor: 3
+  accuracy: 0
+  price: 150
+
+rusty_topfhelm:
+  name: "Rusty topfhelm"
+  armor: 4
+  accuracy: -10
+  price: 100
+
+barbute:
+  name: Barbute
+  armor: 4
+  accuracy: -5
+  price: 200
+
+
+# Unic
+
+living_hood:
+  name: "Living hood"
+  armor: 2
+  accuracy: 5
+  price: 200

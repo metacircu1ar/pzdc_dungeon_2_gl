@@ -1,0 +1,25 @@
+bandits:
+  rabble: 0
+  rabid_dog: 0
+  poacher: 0
+  thug: 0
+  deserter: 0
+  bandit_leader: 0
+undeads:
+  zombie: 0
+  skeleton: 0
+  ghost: 0
+  fat_ghoul: 0
+  skeleton_soldier: 0
+  zombie_knight: 0
+swamp:
+  leech: 0
+  goblin: 0
+  sworm: 0
+  spider: 0
+  orc: 0
+  ancient_snail: 0
+pzdc:
+  stage_1_mimic: 0
+  stage_2_thing: 0
+  stage_3_dog: 0

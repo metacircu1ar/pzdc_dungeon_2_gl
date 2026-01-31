@@ -1,0 +1,6 @@
+ammunition:
+  weapon: [stick, knife, without]
+  body_armor: [leather_jacket, leather_jacket, without]
+  head_armor: [rusty_quilted_helmet, leather_helmet, without]
+  arms_armor: [worn_gloves, leather_gloves, without]
+  shield: [wooden_buckler, wooden_buckler, without]

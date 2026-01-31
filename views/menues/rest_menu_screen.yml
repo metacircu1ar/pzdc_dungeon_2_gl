@@ -1,0 +1,75 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                       CAMPFIRE ACTIONS               █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Show hero info      [Enter 1]        █"
+  - "█                                                                                                                      █"
+  - "█                                                                            AAA  Spend stat points   [Enter 2]        █"
+  - "█                                                                                                                      █"
+  - "█                                                                            AAA  Spend skill points  [Enter 3]        █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Use camp skill      [Enter 4]        █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Enhance ammunition  [Enter 5]        █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Save & exit (resume) [Enter 6]       █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 End run & exit      [Enter 7]        █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                 Let's move on       [Enter 0]        █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA          █"
+  - "█         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA          █"
+  - "█         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA          █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+arts:
+  -
+    y:
+      - 4
+      - 27
+    x:
+      - 5
+      - 74
+insert_options:
+  11:
+    A:
+      methods:
+        - additional_1
+      modifier: e
+  13:
+    A:
+      methods:
+        - additional_2
+      modifier: e
+  # 15:
+  #   A:
+  #     methods:
+  #       - additional_3
+  #     modifier: e
+  30:
+    A:
+      methods:
+        - log_0
+      modifier: m
+  31:
+    A:
+      methods:
+        - log_1
+      modifier: m
+  32:
+    A:
+      methods:
+        - log_2
+      modifier: m

@@ -1,0 +1,181 @@
+e1:
+  code_name: zombie
+  name: Zombie
+  hp: 120
+  min_dmg: 3
+  max_dmg: 8
+  armor_penetration: 0
+  accurasy: 30
+  armor: 0
+  regen_hp_base: 0
+  exp_gived: 2
+  coins_gived: 1
+  weapon:
+    - without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+    - worn_gloves
+  shield:
+    - without
+  ingredients:
+    - without
+    - dead_flesh
+
+e2:
+  code_name: skeleton
+  name: Skeleton
+  hp: 60
+  min_dmg: 2
+  max_dmg: 2
+  armor_penetration: 0
+  accurasy: 80
+  armor: 1
+  regen_hp_base: 0
+  exp_gived: 2
+  coins_gived: 1
+  weapon:
+    - rusty_hatchet
+    - rusty_sword
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+  ingredients:
+    - without
+    - living_bone
+
+e3:
+  code_name: ghost
+  name: Ghost
+  hp: 30
+  min_dmg: 5
+  max_dmg: 15
+  armor_penetration: 5
+  accurasy: 150
+  armor: 8
+  regen_hp_base: 1
+  exp_gived: 3
+  coins_gived: 0
+  weapon:
+    - without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+  ingredients:
+    - without
+    - ghost_dust
+
+e4:
+  code_name: fat_ghoul
+  name: "Fat ghoul"
+  hp: 150
+  min_dmg: 8
+  max_dmg: 12
+  armor_penetration: 1
+  accurasy: 70
+  armor: 0
+  regen_hp_base: 2
+  exp_gived: 4
+  coins_gived: 0
+  weapon:
+    - without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+  ingredients:
+    - without
+    - dead_flesh
+
+e5:
+  code_name: skeleton_soldier
+  name: "Skeleton soldier"
+  hp: 90
+  min_dmg: 2
+  max_dmg: 2
+  armor_penetration: 0
+  accurasy: 95
+  armor: 1
+  regen_hp_base: 0
+  exp_gived: 6
+  coins_gived: 6
+  weapon:
+    - rusty_sword
+    - rusty_falchion
+    - rusty_pernach
+    - rusty_axe
+  body_armor:
+    - without
+    - rusty_gambeson
+    - rusty_chain_mail
+  head_armor:
+    - rusty_quilted_helmet
+    - rusty_mail_helmet
+  arms_armor:
+    - without
+    - rusty_quilted_gloves
+    - rusty_mail_gloves
+  shield:
+    - rusty_scutum
+  ingredients:
+    - without
+    - living_bone
+
+boss:
+  code_name: zombie_knight
+  name: "Zombie-knight"
+  hp: 300
+  min_dmg: 5
+  max_dmg: 15
+  armor_penetration: 1
+  accurasy: 65
+  armor: 0
+  regen_hp_base: 3
+  exp_gived: 20
+  coins_gived: 70
+  weapon:
+    - rusty_longsword
+  body_armor:
+    - rusty_cuirass
+  head_armor:
+    - rusty_topfhelm
+  arms_armor:
+    - rusty_mail_gloves
+  shield:
+    - without
+  ingredients:
+    - zombie_brain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

@@ -1,0 +1,144 @@
+view:
+  - "   AAAAAAAAAAAAAAAAAAAAAAAAAA"
+  - "                             "
+  - "   HP AAA/BBB    HP-regen CCC"
+  - "   MP AAA/BBB    MP-regen CCC"
+  - "   Damage       AAA-BBB      "
+  - "   Penetration   AAA         "
+  - "   Accuracy      AAA         "
+  - "   Armor         AAA         "
+  - "   Block chance  AAA         "
+  - "   Block power   AAA %       "
+  - "                             "
+  - "                             "
+  - "                             "
+  - "           Ammunition        "
+  - "                             "
+  - "   Enter                Name "
+  - "                             "
+  - "   [A] AAAAAAAAAAAAAAAAAAAAA "
+  - "                             "
+  - "   [B] AAAAAAAAAAAAAAAAAAAAA "
+  - "                             "
+  - "   [C] AAAAAAAAAAAAAAAAAAAAA "
+  - "                             "
+  - "   [D] AAAAAAAAAAAAAAAAAAAAA "
+  - "                             "
+  - "   [E] AAAAAAAAAAAAAAAAAAAAA "
+  - "                             "
+  - "                             "
+  - "                             "
+insert_options:
+  0:
+    A:
+      methods:
+        - name
+      modifier: m
+  2:
+    A:
+      methods:
+        - hp
+        - round
+      modifier: e
+    B:
+      methods:
+        - hp_max
+      modifier: s
+    C:
+      methods:
+        - regen_hp_base
+      modifier: m
+  3:
+    A:
+      methods:
+        - mp
+        - round
+      modifier: e
+    B:
+      methods:
+        - mp_max
+      modifier: s
+    C:
+      methods:
+        - regen_mp_base
+      modifier: m
+  4:
+    A:
+      methods:
+        - min_dmg
+      modifier: e
+    B:
+      methods:
+        - max_dmg
+      modifier: s
+  5:
+    A:
+      methods:
+        - armor_penetration
+      modifier: e
+  6:
+    A:
+      methods:
+        - accuracy
+      modifier: e
+  7:
+    A:
+      methods:
+        - armor
+      modifier: e
+  8:
+    A:
+      methods:
+        - block_chance
+      modifier: e
+  9:
+    A:
+      methods:
+        - block_power_in_percents
+      modifier: e
+# AMMUNITION
+  17:
+    A:
+      methods:
+        - weapon
+        - name
+      modifier: e
+  19:
+    A:
+      methods:
+        - head_armor
+        - name
+      modifier: e
+  21:
+    A:
+      methods:
+        - body_armor
+        - name
+      modifier: e
+  23:
+    A:
+      methods:
+        - arms_armor
+        - name
+      modifier: e
+  25:
+    A:
+      methods:
+        - shield
+        - name
+      modifier: e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

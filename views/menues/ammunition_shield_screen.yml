@@ -1,0 +1,80 @@
+view:
+  - "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█"
+  - "█                                                                                                                      █"
+  - "█                                    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA                                        █"
+  - "█                                                                                                                      █"
+  - "█                                                                     Armor:            AAAA                           █"
+  - "█                                                                     Accuracy:         AAAA                           █"
+  - "█                                                                     Block chance:     AAAA                           █"
+  - "█                                                                     Min damage:       AAAA                           █"
+  - "█                                                                     Max damage:       AAAA                           █"
+  - "█                                                                                                                      █"
+  - "█                                                                     Price:            AAAA                           █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█                                                   BACK  [Enter 0]                                                    █"
+  - "█                                                                                                                      █"
+  - "█                                                                                                                      █"
+  - "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
+arts:
+  -
+    y:
+      - 2
+      - 26
+    x:
+      - 6
+      - 60
+insert_options:
+  2:
+    A:
+      methods:
+        - name
+      modifier: m
+  4:
+    A:
+      methods:
+        - armor
+      modifier: e
+  5:
+    A:
+      methods:
+        - accuracy
+      modifier: e
+  6:
+    A:
+      methods:
+        - block_chance
+      modifier: e
+  7:
+    A:
+      methods:
+        - min_dmg
+      modifier: e
+  8:
+    A:
+      methods:
+        - max_dmg
+      modifier: e
+  10:
+    A:
+      methods:
+        - price
+      modifier: e

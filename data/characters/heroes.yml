@@ -1,0 +1,221 @@
+drunk:
+  n: 0
+  name: Drunk
+  hp: 85
+  mp: 85
+  min_dmg: 4
+  max_dmg: 4
+  armor_penetration: 0
+  accurasy: 70
+  armor: 0
+  skill_points: 0
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+passerby:
+  n: 1
+  name: Passerby
+  hp: 100
+  mp: 100
+  min_dmg: 5
+  max_dmg: 5
+  armor_penetration: 0
+  accurasy: 80
+  armor: 0
+  skill_points: 0
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+watchman:
+  n: 2
+  name: Watchman
+  hp: 120
+  mp: 60
+  min_dmg: 6
+  max_dmg: 6
+  armor_penetration: 0
+  accurasy: 80
+  armor: 0
+  skill_points: 0
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+thief:
+  n: 3
+  name: Thief
+  hp: 100
+  mp: 80
+  min_dmg: 5
+  max_dmg: 5
+  armor_penetration: 0
+  accurasy: 85
+  armor: 0
+  skill_points: 0
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+worker:
+  n: 4
+  name: Worker
+  hp: 100
+  mp: 120
+  min_dmg: 4
+  max_dmg: 4
+  armor_penetration: 0
+  accurasy: 80
+  armor: 0
+  skill_points: 0
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+student:
+  n: 5
+  name: Student
+  hp: 90
+  mp: 110
+  min_dmg: 4
+  max_dmg: 4
+  armor_penetration: 0
+  accurasy: 80
+  armor: 0
+  skill_points: 3
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+shorty:
+  n: 6
+  name: Shorty
+  hp: 70
+  mp: 100
+  min_dmg: 3
+  max_dmg: 3
+  armor_penetration: 0
+  accurasy: 95
+  armor: 0
+  skill_points: 0
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+fatso:
+  n: 7
+  name: Fatso
+  hp: 150
+  mp: 30
+  min_dmg: 4
+  max_dmg: 4
+  armor_penetration: 0
+  accurasy: 75
+  armor: 1
+  skill_points: 0
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+oldman:
+  n: 8
+  name: Oldman
+  hp: 80
+  mp: 110
+  min_dmg: 3
+  max_dmg: 4
+  armor_penetration: 0
+  accurasy: 70
+  armor: 0
+  skill_points: 8
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+obsessed:
+  n: 9
+  name: Obsessed
+  hp: 130
+  mp: 50
+  min_dmg: 0
+  max_dmg: 14
+  armor_penetration: 0
+  accurasy: 50
+  armor: 1
+  skill_points: 0
+  weapon: without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+
+
+
+
+
+
+
+
+
+
+
+#

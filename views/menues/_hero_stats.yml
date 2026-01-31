@@ -1,0 +1,192 @@
+view:
+  - "   AAAAAAAAAAAAAAAAAAAA   lvl BBB   exp CCC/DDD    PZDC EEE   coins FFF   "
+  - "  ----------------------------------------------------------------------  "
+  - "   Stat points  AAA                                    Skill points BBB   "
+  - "                                                                          "
+  - "                     ------------ STATS ------------                      "
+  - "                                                                          "
+  - "   HP AAA/BBB                HP-regen CCC               HP-recovery DDD   "
+  - "   MP AAA/BBB                MP-regen CCC               MP-recovery DDD   "
+  - "                                                                          "
+  - "   Damage     AAA-BBB / basic CCC-DDD                  Penetration  EEE   "
+  - "   Accuracy      AAA  / basic   BBB                                       "
+  - "   Armor         AAA  / basic   BBB                                       "
+  - "   Block chance  AAA  / basic   BBB                  Block power  CCC %   "
+  - "                                                                          "
+  - "                     ---------- AMMUNITION ----------                     "
+  - "                                                                          "
+  - "   [Enter A]   Weapon    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA   "
+  - "   [Enter B]   Head      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA   "
+  - "   [Enter C]   Body      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA   "
+  - "   [Enter D]   Arms      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA   "
+  - "   [Enter E]   Shield    AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA   "
+  - "                                                                          "
+insert_options:
+  0:
+    A:
+      methods:
+        - name
+      modifier: s
+    B:
+      methods:
+        - lvl
+      modifier: s
+    C:
+      methods:
+        - exp
+      modifier: e
+    D:
+      methods:
+        - next_lvl_exp
+      modifier: s
+    E:
+      methods:
+        - pzdc_monolith_points
+      modifier: e
+    F:
+      methods:
+        - coins
+      modifier: e
+  2:
+    A:
+      methods:
+        - stat_points
+      modifier: e
+    B:
+      methods:
+        - skill_points
+      modifier: e
+  6:
+    A:
+      methods:
+        - hp
+        - round
+      modifier: e
+    B:
+      methods:
+        - hp_max
+      modifier: s
+    C:
+      methods:
+        - regen_hp_base
+      modifier: m
+    D:
+      methods:
+        - recovery_hp
+        - round
+      modifier: m
+  7:
+    A:
+      methods:
+        - mp
+        - round
+      modifier: e
+    B:
+      methods:
+        - mp_max
+      modifier: s
+    C:
+      methods:
+        - regen_mp_base
+      modifier: m
+    D:
+      methods:
+        - recovery_mp
+        - round
+      modifier: m
+  9:
+    A:
+      methods:
+        - min_dmg
+      modifier: e
+    B:
+      methods:
+        - max_dmg
+      modifier: s
+    C:
+      methods:
+        - min_dmg_base
+      modifier: e
+    D:
+      methods:
+        - max_dmg_base
+      modifier: s
+    E:
+      methods:
+        - armor_penetration
+      modifier: e
+  10:
+    A:
+      methods:
+        - accuracy
+      modifier: m
+    B:
+      methods:
+        - accuracy_base
+      modifier: m
+  11:
+    A:
+      methods:
+        - armor
+      modifier: e
+    B:
+      methods:
+        - armor_base
+      modifier: e
+  12:
+    A:
+      methods:
+        - block_chance
+      modifier: e
+    B:
+      methods:
+        - block_chance_base
+      modifier: e
+    C:
+      methods:
+        - block_power_in_percents
+      modifier: e
+# AMMUNITION
+  16:
+    A:
+      methods:
+        - weapon
+        - name
+      modifier: s
+  17:
+    A:
+      methods:
+        - head_armor
+        - name
+      modifier: s
+  18:
+    A:
+      methods:
+        - body_armor
+        - name
+      modifier: s
+  19:
+    A:
+      methods:
+        - arms_armor
+        - name
+      modifier: s
+  20:
+    A:
+      methods:
+        - shield
+        - name
+      modifier: s
+
+
+
+
+
+
+
+
+
+
+
+
+#

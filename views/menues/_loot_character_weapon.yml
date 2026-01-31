@@ -1,0 +1,47 @@
+view:
+  - "      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA      "
+  - "                                                      "
+  - "                  Min damage:   AAAA                  "
+  - "                  Max damage:   AAAA                  "
+  - "                  Accuracy:     AAAA                  "
+  - "                  Block chance: AAAA                  "
+  - "                  Penetration:  AAAA                  "
+  - "                                                      "
+  - "                  Price:        AAAA                  "
+  - "                                                      "
+insert_options:
+  0:
+    A:
+      methods:
+        - name
+      modifier: m
+  2:
+    A:
+      methods:
+        - min_dmg
+      modifier: e
+  3:
+    A:
+      methods:
+        - max_dmg
+      modifier: e
+  4:
+    A:
+      methods:
+        - accuracy
+      modifier: e
+  5:
+    A:
+      methods:
+        - block_chance
+      modifier: e
+  6:
+    A:
+      methods:
+        - armor_penetration
+      modifier: e
+  8:
+    A:
+      methods:
+        - price
+      modifier: e

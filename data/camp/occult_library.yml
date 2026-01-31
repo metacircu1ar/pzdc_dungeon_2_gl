@@ -1,0 +1,153 @@
+tumor_with_ears:
+  view_code: 1
+  name: "Tumor with ears"
+  price: 10
+  recipe:
+    ear: 2
+  effect:
+    weapon:
+      accuracy: 3
+    head_armor:
+      accuracy: 1
+    body_armor:
+      accuracy: 1
+    arms_armor:
+      accuracy: 2
+    shield:
+      accuracy: 1
+
+windings_with_ears:
+  view_code: 2
+  name: "Windings with ears"
+  price: 10
+  recipe:
+    skin: 1
+    ear: 1
+  effect:
+    weapon:
+      accuracy: 1
+      max_dmg: 1
+    head_armor:
+      accuracy: 1
+    body_armor:
+      accuracy: 2
+    arms_armor:
+      accuracy: 1
+    shield:
+      block_chance: 3
+
+reinforced_flesh:
+  view_code: 3
+  name: "Reinforced flesh"
+  price: 20
+  recipe:
+    dead_flesh: 1
+    living_bone: 2
+  effect:
+    weapon:
+      accuracy: -5
+      min_dmg: 1
+      max_dmg: 2
+    head_armor:
+      accuracy: -5
+      armor: 1
+    body_armor:
+      accuracy: -3
+      armor: 1
+    arms_armor:
+      accuracy: -8
+      armor: 1
+    shield:
+      block_chance: 10
+      accuracy: -10
+
+ethereal_flesh:
+  view_code: 4
+  name: "Ethereal flesh"
+  price: 25
+  recipe:
+    dead_flesh: 1
+    living_bone: 1
+    ghost_dust: 1
+  effect:
+    weapon:
+      accuracy: 3
+      block_chance: 5
+      min_dmg: -1
+      max_dmg: -1
+    head_armor:
+      accuracy: 3
+    body_armor:
+      accuracy: 2
+    arms_armor:
+      accuracy: 7
+      armor: -1
+    shield:
+      block_chance: 7
+      accuracy: 2
+      armor: -1
+
+tongue_with_growths:
+  view_code: 5
+  name: "Tongue with growths"
+  price: 20
+  recipe:
+    leech_tongue: 1
+    skin: 1
+    ear: 1
+  effect:
+    weapon:
+      accuracy: 1
+      min_dmg: -1
+      max_dmg: 2
+    head_armor:
+      accuracy: 1
+    body_armor:
+      accuracy: 2
+    arms_armor:
+      accuracy: 3
+    shield:
+      block_chance: 5
+
+live_hook:
+  view_code: 6
+  name: "Live hook"
+  price: 30
+  recipe:
+    skin: 1
+    chelicerae: 1
+  effect:
+    weapon:
+      accuracy: -5
+      min_dmg: -3
+      max_dmg: 6
+    head_armor:
+      accuracy: -8
+      armor: 1
+    body_armor:
+      accuracy: -5
+      armor: 1
+    arms_armor:
+      accuracy: -10
+      armor: 1
+    shield:
+      block_chance: -8
+      accuracy: -8
+      armor: 1
+      max_dmg: 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

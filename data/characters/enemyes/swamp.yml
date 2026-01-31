@@ -1,0 +1,184 @@
+e1:
+  code_name: leech
+  name: Leech
+  hp: 100
+  min_dmg: 7
+  max_dmg: 9
+  armor_penetration: 0
+  accurasy: 60
+  armor: 0
+  regen_hp_base: 0
+  exp_gived: 2
+  coins_gived: 0
+  weapon:
+    - without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+  ingredients:
+    - without
+    - leech_tongue
+
+e2:
+  code_name: goblin
+  name: Goblin
+  hp: 75
+  min_dmg: 4
+  max_dmg: 4
+  armor_penetration: 0
+  accurasy: 90
+  armor: 0
+  regen_hp_base: 0
+  exp_gived: 2
+  coins_gived: 2
+  weapon:
+    - knife
+    - dagger
+  body_armor:
+    - without
+    - leather_jacket
+  head_armor:
+    - without
+    - leather_helmet
+  arms_armor:
+    - without
+    - worn_gloves
+    - leather_gloves
+  shield:
+    - without
+    - holey_wicker_buckler
+    - braided_buckler
+  ingredients:
+    - without
+    - ear
+
+e3:
+  code_name: sworm
+  name: Snake-worm
+  hp: 120
+  min_dmg: 6
+  max_dmg: 14
+  armor_penetration: 0
+  accurasy: 70
+  armor: 0
+  regen_hp_base: 2
+  exp_gived: 3
+  coins_gived: 0
+  weapon:
+    - without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+  ingredients:
+    - without
+    - skin
+
+e4:
+  code_name: spider
+  name: Spider
+  hp: 130
+  min_dmg: 10
+  max_dmg: 13
+  armor_penetration: 1
+  accurasy: 90
+  armor: 0
+  regen_hp_base: 0
+  exp_gived: 5
+  coins_gived: 0
+  weapon:
+    - without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+  ingredients:
+    - without
+    - chelicerae
+
+e5:
+  code_name: orc
+  name: Orc
+  hp: 150
+  min_dmg: 7
+  max_dmg: 7
+  armor_penetration: 0
+  accurasy: 85
+  armor: 0
+  regen_hp_base: 1
+  exp_gived: 7
+  coins_gived: 3
+  weapon:
+    - rusty_pernach
+    - rusty_axe
+    - pernach
+    - axe
+    - flail
+  body_armor:
+    - without
+    - leather_jacket
+    - rusty_chain_mail
+  head_armor:
+    - without
+    - leather_helmet
+    - rusty_mail_helmet
+  arms_armor:
+    - without
+    - leather_gloves
+    - rusty_mail_gloves
+  shield:
+    - without
+  ingredients:
+    - without
+    - ear
+
+boss:
+  code_name: ancient_snail
+  name: "Ancient Snail"
+  hp: 350
+  min_dmg: 20
+  max_dmg: 25
+  armor_penetration: 2
+  accurasy: 55
+  armor: 5
+  regen_hp_base: 5
+  exp_gived: 30
+  coins_gived: 0
+  weapon:
+    - without
+  body_armor:
+    - without
+  head_armor:
+    - without
+  arms_armor:
+    - without
+  shield:
+    - without
+  ingredients:
+    - piece_of_snail_shell
+
+
+
+
+
+
+
+
+
+
+
+
+#
